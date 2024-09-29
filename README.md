@@ -3,9 +3,9 @@
 ## Hello! 
 
 This is my work on "Praktikum Alstrukdat"
-If you have any question, feel free to ask me at 
-Discord : Ryzz17
-IG : ryzz.36
+If you have any question, feel free to ask me at <br>
+Discord : Ryzz17 <br>
+IG : ryzz.36 <br>
 
 ## 📊 Lab Score Table
 
