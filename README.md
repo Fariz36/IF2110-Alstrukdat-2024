@@ -9,7 +9,7 @@
 
 | Praktikum    | Topic                                         | Score  |
 |--------------|-----------------------------------------------|--------|
-| 0            | Introduction to C                             | 100/100|
+| 0            | Introduction to C                             | 500/500|
 | 1            | ADT Sederhana                                 | 300/300|
 | 2            | ADT List dengan Array Statik                  | ---/---|
 | 3            | ADT List dengan Array Dinamis                 | ---/---|
