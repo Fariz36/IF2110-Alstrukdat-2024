@@ -31,4 +31,4 @@ IG : ryzz.36 <br>
 ### Contributor
 - Mochammad Fariz Rifqi Rizqulloh 13523069
 - Razi Rachman Widyadhana 13523004
-- Muhammad Adha Ridwan 13523098
+- Muhammad Adha Ridwan 13523098 [Twitter = adharid21]
