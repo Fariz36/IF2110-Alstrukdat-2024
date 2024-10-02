@@ -13,7 +13,7 @@ IG : ryzz.36 <br>
 |--------------|-----------------------------------------------|--------|
 | 0            | Introduction to C                             | 500/500|
 | 1            | ADT Sederhana                                 | 300/300|
-| 2            | ADT List dengan Array Statik                  | ---/---|
+| 2            | ADT List dengan Array Statik                  | 300/300|
 | 3            | ADT List dengan Array Dinamis                 | ---/---|
 | 4            | ADT Matrix                                    | ---/---|
 | 5            | ADT Mesin Kata                                | ---/---|
