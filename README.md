@@ -7,7 +7,7 @@ If you have any question, feel free to ask me at <br>
 Discord : Ryzz17 <br>
 IG : ryzz.36 <br>
 
-## 📊 Lab Score Table
+## 📊 My Source Code Score
 
 | Praktikum    | Topic                                         | Score  |
 |--------------|-----------------------------------------------|--------|
