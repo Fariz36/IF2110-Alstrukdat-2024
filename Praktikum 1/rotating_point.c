@@ -4,10 +4,11 @@
 
 COMPLEX PowerCOMPLEX(COMPLEX C, int p) {
     COMPLEX temp = C;
+    p--;
     while (p--) {
         C = MultiplyCOMPLEX(C, temp);
     }
-    return temp;
+    return C;
 }
 
 void TransformPointByComplexPower(POINT *P, COMPLEX C, int n) {
