@@ -10,7 +10,7 @@ int main() {
     CreateListDin(&li, n);
 
     ListDin final;
-    CreateListDin(&final, n);
+    CreateListDin(&final, n+69);
 
     int i;
     for (i = 0; i < n; i++) {
@@ -19,12 +19,20 @@ int main() {
     }
 
     int le, ri;
-    scanf("%d %d", &le, &ri);
+    scanf("%d", &le);
+    scanf("%d", &ri);
 
     boolean inserted = 0;
     for (i = 0; i < listLength(li); i+=2) {
         int nextstart = ELMT(li, i);
         int nextstop = ELMT(li, i+1);
+
+        //printf("nextstart: %d, nextstop: %d\n", nextstart, nextstop);
+        if (nextstart > ri && !inserted) {
+            insertLast(&final, le);
+            insertLast(&final, ri);
+            inserted = 1;
+        }
 
         if (listLength(final) > 0 && ELMT(final, getLastIdx(final)) >= nextstart) {
             if (ELMT(final, getLastIdx(final)) < nextstop) {
@@ -33,7 +41,7 @@ int main() {
             continue;
         }
 
-        if (nextstop >= le && ri >= nextstart) {
+        if (!inserted && nextstop >= le && ri >= nextstart) {
             inserted = 1;
             if (nextstart > le) {
                 nextstart = le;
@@ -54,7 +62,7 @@ int main() {
     }
 
     for (int i = 0; i < listLength(final); i++) {
-        if (i != listLength(final) -1 ) printf("%d ", ELMT(final, i));
+        if (i != listLength(final) - 1) printf("%d ", ELMT(final, i));
         else printf("%d\n", ELMT(final, i));
     }
 }
